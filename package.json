@@ -1,0 +1,48 @@
+{
+  "name": "mern-auth-redux",
+  "version": "1.0.0",
+  "description": "MEAN Auth using JWT and Passport ",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kantanand US",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantanand/mern-auth-redux.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "react",
+    "mongooes",
+    "passport",
+    "auth",
+    "jwt"
+  ],
+  "bugs": {
+    "url": "https://github.com/kantanand/mern-auth-redux/issues"
+  },
+  "homepage": "https://github.com/kantanand/mern-auth-redux#readme"
+}
